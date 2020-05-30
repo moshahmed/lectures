@@ -2,12 +2,14 @@
 % Mosh@cse.iitb.ernet.in, 29-Apr-93.
 % moshahmed@gmail.com
 % IIT Bombay, Dept of Computer Science and Engg.
+% $Header: c:/cvs/repo/mosh/papers/metafont/iitblogo.mf,v 1.5 2020/03/19 14:48:02 User Exp $
 
 % These should be command line parameters:
  screen_rows:=600; screen_columns:=700; screenstrokes;
 % mode:=sun;			% For testing on SUN.
 % mode:=OneTwoZero;
  mode:=RicohFourZeroEightZero; % For Dept QMS-laser-printer.
+ mode:=localfont;
  mag:=1; fontmaking:=1; 
 mode_setup; 			
 
